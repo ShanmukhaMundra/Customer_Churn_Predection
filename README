@@ -14,4 +14,4 @@
 (v). Model Training we will use Random Forest
 (vi). Model Training with other Machine Learning Models for comparison
       (a). Used Logistic Regression for comparison
-(vii). Performing hyperparameter tuning using GridSearchCV or RandomizedSearchCV
+(vii). Performed hyperparameter tuning using GridSearchCV and RandomizedSearchCV on Random Forest Model
