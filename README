@@ -1,0 +1,17 @@
+**Project Implementation**
+(i). Importing necessary Libraries
+(ii). Loading Dataset
+      (https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html)
+(iii). Data Preprocessing
+       (a). Handling Missing Values
+       (b). Convert Integer value to Float
+       (c). Categorical variable in Churn column need to be converted to numerical value
+(iv). Exploratory Data Analysis(EDA)
+      (a). Check Class Balance: Determine whether the dataset is balanced or imbalanced. For example:
+              i. Balanced: Nearly equal counts of 0 and 1.
+              ii. Imbalanced: One category significantly outnumbers the other.
+       (c). Prepare for Modeling: If the dataset is imbalanced, we need techniques like class weighting in the model.
+(v). Model Training we will use Random Forest
+(vi). Model Training with other Machine Learning Models for comparison
+      (a). Used Logistic Regression for comparison
+(vii). Performing hyperparameter tuning using GridSearchCV or RandomizedSearchCV
